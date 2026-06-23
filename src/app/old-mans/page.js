@@ -1,5 +1,4 @@
-import Image from "next/image";
-export default function KutaReef() {
+export default function OldMans() {
   return (
     <main className="min-h-screen bg-black text-white p-8">
       <div className="max-w-6xl mx-auto">
@@ -8,11 +7,11 @@ export default function KutaReef() {
           href="/"
           className="text-zinc-500 hover:text-white"
         >
-          ← Back 
+          ← Back
         </a>
 
         <h1 className="text-5xl font-bold mt-6">
-          Kuta Reef
+          Old Man's
         </h1>
 
         <div className="flex items-center gap-2 mt-4 mb-8">
@@ -23,8 +22,8 @@ export default function KutaReef() {
         </div>
 
         <div className="aspect-video bg-zinc-900 rounded-2xl flex items-center justify-center text-zinc-500">
-  VIDEO STREAM
-</div>
+          VIDEO STREAM
+        </div>
 
         <div className="grid grid-cols-3 gap-4 mt-8">
 
@@ -33,7 +32,7 @@ export default function KutaReef() {
               Wave Height
             </div>
             <div className="text-2xl mt-2">
-              --
+              —
             </div>
           </div>
 
@@ -42,7 +41,7 @@ export default function KutaReef() {
               Wind
             </div>
             <div className="text-2xl mt-2">
-              --
+              —
             </div>
           </div>
 
@@ -51,7 +50,7 @@ export default function KutaReef() {
               Tide
             </div>
             <div className="text-2xl mt-2">
-              --
+              —
             </div>
           </div>
 
