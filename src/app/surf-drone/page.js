@@ -45,67 +45,79 @@ export default function SurfDrone() {
             Portfolio
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-x-6 gap-y-6">
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video1.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video1-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video2.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video6-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video3.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video3-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video4.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video4-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video5.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video5-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-  <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full rounded-2xl hover:scale-105 transition duration-300"
->
-  <source src="/videos/video6.mov" type="video/quicktime" />
-</video>
+  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
+    >
+      <source src="/videos/video2-preview.mp4" type="video/mp4" />
+    </video>
+  </div>
 
 </div>
         </section>
