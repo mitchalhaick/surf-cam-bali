@@ -175,6 +175,14 @@ export default function SurfDrone() {
     className="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
     onClick={() => setOpenVideo(null)}
   >
+
+    <button
+      onClick={() => setOpenVideo(null)}
+      className="absolute top-4 right-4 w-12 h-12 rounded-full bg-black/50 text-white text-3xl flex items-center justify-center z-50"
+    >
+      ×
+    </button>
+
     <video
       controls
       autoPlay
@@ -183,6 +191,7 @@ export default function SurfDrone() {
     >
       <source src={openVideo} type="video/mp4" />
     </video>
+
   </div>
 )}
     </main>
