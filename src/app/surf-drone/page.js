@@ -128,7 +128,7 @@ export default function SurfDrone() {
         </section>
 
         <section id="contact">
-          <div className="bg-zinc-900 rounded-3xl p-10">
+          <div className="bg-zinc-900 rounded-3xl p-2 md:p-10">
 
   <div className="text-center text-zinc-500 text-sm tracking-[0.3em] mb-8">
     CONTACT
