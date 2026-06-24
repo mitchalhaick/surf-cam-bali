@@ -4,7 +4,7 @@ export default function SurfDrone() {
   const [openVideo, setOpenVideo] = useState(null);
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="max-w-6xl mx-auto px-8 py-16">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
 
         <a
           href="/"
