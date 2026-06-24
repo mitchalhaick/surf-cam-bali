@@ -1,4 +1,7 @@
+"use client";
+import { useState } from "react";
 export default function SurfDrone() {
+  const [openVideo, setOpenVideo] = useState(null);
   return (
     <main className="min-h-screen bg-black text-white">
       <div className="max-w-6xl mx-auto px-8 py-16">
@@ -45,79 +48,73 @@ export default function SurfDrone() {
             Portfolio
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-x-6 gap-y-6">
+          <div className="grid md:grid-cols-3 gap-1">
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video1-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video1.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video1.jpg"
+    alt="Video 1"
+    className="block w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video6-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video2.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video2.jpg"
+    alt="Video 2"
+    className="block w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video3-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video3.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video3.jpg"
+    alt="Video 3"
+    className="w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video4-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video4.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video4.jpg"
+    alt="Video 4"
+    className="block w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video5-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video5.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video5.jpg"
+    alt="Video 5"
+    className="w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
-  <div className="aspect-[9/16] overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="w-full h-full object-contain rounded-3xl overflow-hidden hover:scale-115 transition duration-300"
-    >
-      <source src="/videos/video2-preview.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div
+  onClick={() => setOpenVideo("/videos/video6.mov")}
+  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+>
+  <img
+    src="/images/video6.jpg"
+    alt="Video 6"
+    className="w-full h-full object-cover rounded-3xl"
+  />
+</div>
 
 </div>
         </section>
@@ -173,6 +170,21 @@ export default function SurfDrone() {
         </section>
 
       </div>
+    {openVideo && (
+  <div
+    className="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
+    onClick={() => setOpenVideo(null)}
+  >
+    <video
+      controls
+      autoPlay
+      className="max-h-[90vh] max-w-[90vw] rounded-3xl"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <source src={openVideo} type="video/mp4" />
+    </video>
+  </div>
+)}
     </main>
   );
 }
