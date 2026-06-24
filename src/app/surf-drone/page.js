@@ -56,7 +56,7 @@ export default function SurfDrone() {
       PORTFOLIO
     </div>
 
-    <div className="grid md:grid-cols-3 gap-1">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
 
   <div
   onClick={() => setOpenVideo("/videos/video1.mov")}
