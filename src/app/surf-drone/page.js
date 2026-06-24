@@ -32,23 +32,31 @@ export default function SurfDrone() {
         </div>
 
         <section id="about" className="mb-24">
-          <h2 className="text-3xl font-semibold mb-6">
-            About
-          </h2>
 
-          <p className="text-zinc-400 max-w-3xl">
-            Professional surf drone filming and photography in Bali.
-            Capturing surfers from the air with cinematic footage and
-            high-quality photography.
-          </p>
-        </section>
+  <div className="bg-zinc-900 rounded-3xl p-10">
+
+    <div className="text-center text-zinc-500 text-sm tracking-[0.3em] mb-8">
+      ABOUT
+    </div>
+
+    <p className="text-zinc-400 max-w-3xl mx-auto">
+      Professional surf drone filming and photography in Bali.
+      Capturing surfers from the air with cinematic footage and
+      high-quality photography.
+    </p>
+
+  </div>
+
+</section>
 
         <section id="portfolio" className="mb-24">
-          <h2 className="text-3xl font-semibold mb-6">
-            Portfolio
-          </h2>
+  <div className="bg-zinc-900 rounded-3xl p-10">
 
-          <div className="grid md:grid-cols-3 gap-1">
+    <div className="text-center text-zinc-500 text-sm tracking-[0.3em] mb-8">
+      PORTFOLIO
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-1">
 
   <div
   onClick={() => setOpenVideo("/videos/video1.mov")}
@@ -116,7 +124,7 @@ export default function SurfDrone() {
   />
 </div>
 
-</div>
+</div></div>
         </section>
 
         <section id="contact">
