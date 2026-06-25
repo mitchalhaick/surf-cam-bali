@@ -3,6 +3,13 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 
       <div className="max-w-6xl mx-auto px-8 py-16">
+        <a href="/" className="inline-block mb-8">
+  <img
+    src="/logo.png"
+    alt="Surf Hunters"
+    className="h-16 w-auto hover:opacity-80 transition"
+  />
+</a>
 
         <h1 className="text-6xl font-bold mb-4">
           Surf Hunters
