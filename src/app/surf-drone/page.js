@@ -4,7 +4,7 @@ export default function SurfDrone() {
   const [openVideo, setOpenVideo] = useState(null);
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="max-w-6xl mx-auto px-1 md:px-8 py-16">
+      <div className="max-w-6xl mx-auto px-8 py-16">
 
         <a
           href="/"
@@ -33,7 +33,7 @@ export default function SurfDrone() {
 
         <section id="about" className="mb-24">
 
-  <div className="bg-zinc-900 rounded-3xl p-2 md:p-10">
+  <div className="bg-zinc-900 rounded-3xl p-10">
 
     <div className="text-center text-zinc-500 text-sm tracking-[0.3em] mb-8">
       ABOUT
