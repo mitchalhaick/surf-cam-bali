@@ -56,11 +56,11 @@ export default function SurfDrone() {
       PORTFOLIO
     </div>
 
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-1 px-1 md:px-0">
 
   <div
   onClick={() => setOpenVideo("/videos/video1.mov")}
-  className="aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
+  className="-mx-1 md:mx-0 aspect-[9/16] cursor-pointer overflow-hidden rounded-3xl transition duration-300 hover:scale-105 hover:shadow-2xl"
 >
   <img
     src="/images/video1.jpg"
