@@ -2,14 +2,18 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
 
-      <div className="max-w-6xl mx-auto px-8 py-16">
-        <a href="/" className="inline-block mb-8">
-  <img
-    src="/logo.png"
-    alt="Surf Hunters"
-    className="h-16 w-auto hover:opacity-80 transition"
-  />
-</a>
+  <a
+    href="/"
+    className="absolute top-6 left-6 z-50"
+  >
+    <img
+      src="/logo.png"
+      alt="Surf Hunters"
+      className="h-24 w-auto hover:opacity-80 transition"
+    />
+  </a>
+
+  <div className="max-w-6xl mx-auto px-8 py-16">
 
         <h1 className="text-6xl font-bold mb-4">
           Surf Hunters
