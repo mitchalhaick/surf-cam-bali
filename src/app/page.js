@@ -9,7 +9,7 @@ export default function Home() {
     <img
       src="/logo.png"
       alt="Surf Hunters"
-      className="h-18 w-auto hover:opacity-80 transition"
+      className="h-20 w-auto hover:opacity-80 transition"
     />
   </a>
 
