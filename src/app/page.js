@@ -3,6 +3,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
 
+<Logo />
+<div className="fixed top-32 left-2 z-[9999] text-red-500">
+  TEST
+</div>
 
   <div className="max-w-6xl mx-auto px-8 py-16">
 
