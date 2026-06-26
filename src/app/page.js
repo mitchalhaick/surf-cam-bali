@@ -9,13 +9,13 @@ export default function Home() {
     <img
       src="/logo.png"
       alt="Surf Hunters"
-      className="h-20 w-auto hover:opacity-80 transition"
+      className="h-24 w-auto hover:opacity-80 transition"
     />
   </a>
 
   <div className="max-w-6xl mx-auto px-8 py-16">
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
 
           <a
             href="/cameras"
