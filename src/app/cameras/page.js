@@ -1,14 +1,13 @@
+import Logo from "@/components/Logo";
 export default function Cameras() {
   return (
     <main className="min-h-screen bg-black text-white">
+
+<Logo />
+
       <div className="max-w-6xl mx-auto px-8 py-16">
 
-        <a
-          href="/"
-          className="text-zinc-500 hover:text-white"
-        >
-          ← Back
-        </a>
+        
 
         <h1 className="text-5xl font-bold mt-6 mb-4">
           Surf Cameras

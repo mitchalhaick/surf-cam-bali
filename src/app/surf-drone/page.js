@@ -1,3 +1,4 @@
+import Logo from "@/components/Logo";
 "use client";
 import { useState } from "react";
 export default function SurfDrone() {
@@ -5,16 +6,7 @@ export default function SurfDrone() {
   return (
     <main className="min-h-screen bg-black text-white">
 
-<a
-  href="/"
-  className="absolute top-1 left-1 z-50"
->
-  <img
-    src="/logo.png"
-    alt="Surf Hunters"
-    className="h-24 w-auto hover:opacity-80 transition"
-  />
-</a>
+<Logo />
 
       <div className="max-w-6xl mx-auto px-8 py-16">
 
