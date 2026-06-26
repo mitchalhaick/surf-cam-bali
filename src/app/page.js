@@ -4,7 +4,7 @@ export default function Home() {
 
   <a
     href="/"
-    className="absolute top-6 left-6 z-50"
+    className="absolute top-2 left-2 z-50"
   >
     <img
       src="/logo.png"
@@ -15,9 +15,7 @@ export default function Home() {
 
   <div className="max-w-6xl mx-auto px-8 py-16">
 
-        <h1 className="text-6xl font-bold mb-4">
-          Surf Hunters
-        </h1>
+
 
         <p className="text-zinc-400 text-xl mb-16">
           Everything for surfers in Bali.
