@@ -2,7 +2,7 @@ export default function Logo() {
   return (
     <a
       href="/"
-      className="fixed top-1 left-1 z-50"
+      className="absolute top-1 left-1 z-50"
     >
       <img
         src="/logo.png"

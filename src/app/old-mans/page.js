@@ -1,14 +1,12 @@
+import Logo from "@/components/Logo";
 export default function OldMans() {
   return (
     <main className="min-h-screen bg-black text-white p-8">
+
+        <Logo />
+
       <div className="max-w-6xl mx-auto">
 
-        <a
-          href="/"
-          className="text-zinc-500 hover:text-white"
-        >
-          ← Back
-        </a>
 
         <h1 className="text-5xl font-bold mt-6">
           Old Man's
