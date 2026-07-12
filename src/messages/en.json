@@ -1,0 +1,86 @@
+{
+  "navigation": {
+    "surfCam": "Surf Cam",
+    "surfDrone": "Surf Drone",
+    "contact": "Contact",
+    "liveConditions": "Live surf conditions in Bali.",
+    "droneDescription": "Professional drone filming and surf photography.",
+    "open": "Open →"
+  },
+
+  "cameras": {
+    "title": "Surf Cameras",
+    "description": "Live surf conditions from Bali's surf breaks.",
+    "live": "LIVE",
+    "preview": "Camera Preview",
+    "comingSoon": "Coming Soon",
+    "watch": "Watch camera →"
+  },
+  
+"kutaReef": {
+  "live": "LIVE",
+  "liveCamera": "Live Camera",
+  "comingSoon": "Coming Soon",
+  "waveHeight": "Wave Height",
+  "wind": "Wind",
+  "tide": "Tide"
+}
+,
+"oldMans": {
+  "live": "LIVE",
+  "liveCamera": "Live Camera",
+  "comingSoon": "Coming Soon",
+  "waveHeight": "Wave Height",
+  "wind": "Wind",
+  "tide": "Tide"
+}
+,
+"surfDrone": {
+  "title": "Surf Drone",
+  "about": "About",
+  "aboutDescription": "Learn how drone filming works and what you'll receive.",
+  "portfolio": "Portfolio",
+  "portfolioDescription": "Watch recent surf sessions filmed around Bali.",
+  "contact": "Contact",
+  "contactDescription": "Get in touch or book your drone session.",
+  "open": "Open →"
+}
+,
+"about": {
+  "title": "About",
+  "description": "Everything you need to know before booking your surf drone session.",
+
+  "howItWorks": "How It Works",
+  "howText1": "Booking your surf drone session is simple. Just contact us using any of the methods listed on our Contact page, tell us where and when you're planning to surf, and we'll take care of the rest.",
+  "howText2": "We film surfers of all skill levels — from complete beginners to experienced surfers. Our professional drone operators work at surf spots all across Bali. Depending on the location and conditions, filming is done either from the beach or from a boat.",
+  "howText3": "All footage is captured in high quality. Immediately after the session, you can copy the original files directly to your phone using the card reader we provide, or to any storage device you bring with you. For your convenience, we also upload all files to cloud storage, where they remain available for one month.",
+  "howText4": "Once everything is arranged, all you need to do is paddle out and enjoy your surf session. We'll take care of everything else.",
+
+  "pricing": "Pricing",
+  "pricingIntro": "Our pricing is based on your surfing level.",
+  "beginner": "Beginner",
+  "intermediate": "Intermediate",
+  "advanced": "Advanced / Professional",
+  "sessionDuration": "Each session includes up to 2 hours of filming.",
+  "customOption": "If you need a longer session or have any special requests, simply get in touch with us and we'll be happy to arrange a custom option.",
+  "discount": "Discounted packages are available for multiple sessions.",
+
+  "bookSession": "Book Your Session",
+  "bookIntro": "Ready to book your surf drone session?",
+  "bookText1": "Choose your preferred way to contact us.",
+  "bookText2": "We'll reply as soon as possible and help you arrange the perfect filming session."
+}
+,
+"contact": {
+  "title": "Contact",
+  "description1": "Have a question or want to book a surf drone session?",
+  "description2": "We'll be happy to answer any questions and help you choose the best option for your filming session.",
+  "footer": "We'll do our best to respond as soon as possible."
+}
+,
+"portfolio": {
+  "title": "Portfolio",
+  "description": "A collection of our recent surf drone footage captured across Bali.",
+  "moreVideos": "More videos on our"
+}
+}
