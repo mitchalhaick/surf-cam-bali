@@ -30,14 +30,7 @@ export default async function LocaleLayout({children, params}) {
     <body className="relative bg-black text-white">
 
   <div
-  className="fixed inset-0 z-0"
-  style={{
-    backgroundImage: "url('/images/wave-bg.webp')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    opacity: 0.2
-  }}
+  className="fixed inset-0 z-0 ..."
 />
 
   <div className="relative z-10">
