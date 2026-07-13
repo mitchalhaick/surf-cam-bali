@@ -9,14 +9,14 @@ export default function About() {
   const t = useTranslations("about");
     const [openSection, setOpenSection] = useState(null);
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
 
       <Logo />
 
       <div className="max-w-6xl mx-auto px-8 py-16">
 
         <motion.h1
-          className="text-5xl font-bold mt-6 mb-4"
+          className="text-5xl font-bold mt-14 mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}

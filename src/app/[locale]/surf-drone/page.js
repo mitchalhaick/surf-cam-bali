@@ -8,16 +8,21 @@ export default function SurfDrone() {
   const t = useTranslations("surfDrone");
 const locale = useLocale();
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
 
 <Logo />
 
       <div className="max-w-6xl mx-auto px-8 py-16">
 
 
-        <h1 className="text-5xl font-bold mt-6 mb-8">
+        <motion.h1
+  className="text-5xl font-bold mt-14 mb-8"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+>
   {t("title")}
-</h1>
+</motion.h1>
 
 <div className="max-w-lg mx-auto mt-12 space-y-8">
 
@@ -25,17 +30,19 @@ const locale = useLocale();
 
   <motion.div
     className="
-      block
-      w-full
-      bg-zinc-900
-      rounded-3xl
-      p-8
-      transition-transform
-      duration-150
-      ease-out
-      hover:scale-[1.015]
-      hover:-translate-y-1
-    "
+  block
+  w-full
+  rounded-3xl
+  p-8
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
+  transition-[background-color,border-color]
+  duration-300
+"
     initial={{ opacity: 0, x: -80 }}
     animate={{ opacity: 1, x: 0 }}
     transition={{
@@ -62,17 +69,19 @@ const locale = useLocale();
 
   <motion.div
     className="
-      block
-      w-full
-      bg-zinc-900
-      rounded-3xl
-      p-8
-      transition-transform
-      duration-150
-      ease-out
-      hover:scale-[1.015]
-      hover:-translate-y-1
-    "
+  block
+  w-full
+  rounded-3xl
+  p-8
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
+  transition-[background-color,border-color]
+  duration-300
+"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{
@@ -100,17 +109,19 @@ const locale = useLocale();
 
   <motion.div
     className="
-      block
-      w-full
-      bg-zinc-900
-      rounded-3xl
-      p-8
-      transition-transform
-      duration-150
-      ease-out
-      hover:scale-[1.015]
-      hover:-translate-y-1
-    "
+  block
+  w-full
+  rounded-3xl
+  p-8
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
+  transition-[background-color,border-color]
+  duration-300
+"
     initial={{ opacity: 0, x: 80 }}
     animate={{ opacity: 1, x: 0 }}
     transition={{

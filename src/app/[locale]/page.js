@@ -8,7 +8,7 @@ export default function Home() {
   const t = useTranslations("navigation");
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
 
 <Logo />
 
@@ -20,17 +20,20 @@ export default function Home() {
           <motion.a
   href="/cameras"
   className="
-    block
-    w-full
-    bg-zinc-900
-    rounded-3xl
-    p-8
-    hover:bg-zinc-800
-    hover:-translate-y-1
-    hover:shadow-xl
-    transition-colors
-    duration-300
-  "
+  block
+  w-full
+  rounded-3xl
+  p-8
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
+  hover:-translate-y-1
+  transition-[background-color,border-color,box-shadow]
+duration-300
+"
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{
@@ -55,17 +58,20 @@ export default function Home() {
           <motion.a
   href="/surf-drone"
   className="
-    block
-    w-full
-    bg-zinc-900
-    rounded-3xl
-    p-8
-    hover:bg-zinc-800
-    hover:-translate-y-1
-    hover:shadow-xl
-    transition-colors
-    duration-300
-  "
+  block
+  w-full
+  rounded-3xl
+  p-8
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
+  hover:-translate-y-1
+  transition-[background-color,border-color,box-shadow]
+duration-300
+"
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{

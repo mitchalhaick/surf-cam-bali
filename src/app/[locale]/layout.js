@@ -26,12 +26,27 @@ export default async function LocaleLayout({children, params}) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
-  );
+  <html lang={locale}>
+    <body className="relative bg-black text-white">
+
+  <div
+  className="fixed inset-0 z-0"
+  style={{
+    backgroundImage: "url('/images/wave-bg.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    opacity: 0.2
+  }}
+/>
+
+  <div className="relative z-10">
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      {children}
+    </NextIntlClientProvider>
+  </div>
+
+</body>
+  </html>
+);
 }

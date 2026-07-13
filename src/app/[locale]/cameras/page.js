@@ -10,7 +10,7 @@ export default function Cameras() {
   const locale = useLocale();
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
 
 <Logo />
 
@@ -19,7 +19,7 @@ export default function Cameras() {
         
 
         <motion.h1
-  className="text-5xl font-bold mt-6 mb-4"
+  className="text-5xl font-bold mt-14 mb-4"
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.7 }}
@@ -41,14 +41,18 @@ transition={{ duration: 0.7, delay: 0.2 }}
   <motion.div
   className="
   block
-  bg-zinc-900
   rounded-3xl
   p-8
-  transition-transform
-  duration-400
-  ease-out
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
   hover:scale-[1.02]
   hover:-translate-y-1
+  transition-[background-color,border-color,box-shadow]
+  duration-300
 "
 initial={{ opacity: 0, scale: 0.98 }}
 animate={{ opacity: 1, scale: 1 }}
@@ -76,7 +80,20 @@ transition={{
 
     </div>
 
-    <div className="aspect-video bg-zinc-800 rounded-2xl mb-6 flex flex-col items-center justify-center text-zinc-500">
+    <div className="
+  aspect-video
+  bg-black/20
+  backdrop-blur-md
+  border
+  border-white/10
+  rounded-2xl
+  mb-6
+  flex
+  flex-col
+  items-center
+  justify-center
+  text-zinc-400
+">
       <div>{t("preview")}</div>
 
       <div className="text-sm mt-2">
@@ -95,14 +112,18 @@ transition={{
 <motion.div
 className="
   block
-  bg-zinc-900
   rounded-3xl
   p-8
-  transition-transform
-  duration-400
-  ease-out
+  bg-black/10
+  backdrop-blur-xl
+  border
+  border-white/10
+  hover:bg-black/40
+  hover:border-white/20
   hover:scale-[1.02]
   hover:-translate-y-1
+  transition-[background-color,border-color,box-shadow]
+  duration-300
 "
 initial={{ opacity: 0, scale: 0.98 }}
 animate={{ opacity: 1, scale: 1 }}
@@ -130,7 +151,20 @@ transition={{
 
     </div>
 
-    <div className="aspect-video bg-zinc-800 rounded-2xl mb-6 flex flex-col items-center justify-center text-zinc-500">
+    <div className="
+  aspect-video
+  bg-black/20
+  backdrop-blur-md
+  border
+  border-white/10
+  rounded-2xl
+  mb-6
+  flex
+  flex-col
+  items-center
+  justify-center
+  text-zinc-400
+">
       <div>{t("preview")}</div>
 
       <div className="text-sm mt-2">
