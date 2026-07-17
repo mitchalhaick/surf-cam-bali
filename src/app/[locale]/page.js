@@ -24,8 +24,7 @@ export default function Home() {
   w-full
   rounded-3xl
   p-8
-  bg-black/10
-  backdrop-blur-xl
+  bg-black/60
   border
   border-white/10
   hover:bg-black/40
@@ -62,8 +61,7 @@ duration-300
   w-full
   rounded-3xl
   p-8
-  bg-black/10
-  backdrop-blur-xl
+  bg-black/60
   border
   border-white/10
   hover:bg-black/40
