@@ -27,21 +27,26 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <body className="relative bg-black text-white">
-        <div
-          className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/wave-bg.webp')",
-          }}
-        />
+      <body className="min-h-screen text-white">
 
-        <div className="relative z-10">
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            {children}
-          </NextIntlClientProvider>
-        </div>
-      </body>
+  <div
+    className="fixed inset-0 z-0"
+    style={{
+      backgroundImage: "url('/images/wave-bg.webp')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      opacity: 0.25
+    }}
+  />
+
+  <div className="relative z-10">
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      {children}
+    </NextIntlClientProvider>
+  </div>
+
+</body>
     </html>
   );
 }
