@@ -25,7 +25,6 @@ export default function Home() {
   rounded-3xl
   p-8
   bg-black/10
-  backdrop-blur-xl
   border
   border-white/10
   hover:bg-black/40
@@ -63,7 +62,6 @@ duration-300
   rounded-3xl
   p-8
   bg-black/10
-  backdrop-blur-xl
   border
   border-white/10
   hover:bg-black/40
