@@ -24,15 +24,15 @@ export default function Home() {
   w-full
   rounded-3xl
   p-8
-  bg-black/60
+  bg-black/10
+  backdrop-blur-xl
   border
   border-white/10
   hover:bg-black/40
   hover:border-white/20
   hover:-translate-y-1
   transition-[background-color,border-color,box-shadow]
-duration-300
-"
+  duration-300"
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{
@@ -61,15 +61,15 @@ duration-300
   w-full
   rounded-3xl
   p-8
-  bg-black/60
+  bg-black/10
+  backdrop-blur-xl
   border
   border-white/10
   hover:bg-black/40
   hover:border-white/20
   hover:-translate-y-1
   transition-[background-color,border-color,box-shadow]
-duration-300
-"
+  duration-300"
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{
